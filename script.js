@@ -1,5 +1,4 @@
-
-const username = "ThisUserDoesNotExist123456789";
+const username = "GyulerGancheva";
 
 async function fetchGithubData() {
     const apiUrl = `https://api.github.com/users/${username}`;
