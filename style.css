@@ -78,6 +78,11 @@ footer {
         padding: 40px 15px;
     }
 
+    nav {
+    gap: 15px;
+    margin-bottom: 30px;
+    }
+
     header h1 {
         font-size: 32px;
     }
@@ -141,19 +146,11 @@ html {
     transform: translateY(-2px);
 }
 
-li {
-    transition: 0.3s;
-}
 
 li:hover {
     transform: translateY(-3px);
 }
-nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 30px;
-}
+
 #github-profile {
     display: inline-block;
     margin-top: 15px;
