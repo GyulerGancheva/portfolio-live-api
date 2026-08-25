@@ -57,6 +57,12 @@ li {
     background-color: #e7dced;
     padding: 8px 16px;
     border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 footer {
